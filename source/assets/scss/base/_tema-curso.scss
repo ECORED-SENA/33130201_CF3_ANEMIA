@@ -1,0 +1,142 @@
+//Colores base del material de formación
+$brand-color-dark: #F8E1AD;
+$text-color-dark: #415214;
+
+
+//Esto lo puede cambiar poe el color que quiera q sugiera el tema. (sE QUITA EL lighten)
+$brand-color-light: #92934e;
+$text-color-light: white;
+$brand-color-secondary: rgb(234, 230, 153);
+
+$brand-color-optional: #C6C6C6;
+
+$brand-color-1: #ED8730;
+$brand-color-2: #DB311C;
+
+.text-color-4 {
+    color: #42A62A;
+}
+.bg-color-gris {
+    background-color: #DEE1E6;
+}
+
+.border-color-2 {
+    border-color: #0058A1;
+    border-width: 4px;
+}
+
+.fila-1 {
+    background-color: #92934e;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.fila-2 {
+    background-color: rgba(234, 230, 153, 0.4);
+    border-bottom: 1px solid white;
+}
+
+.fila-2-65 {
+    background-color: rgba(234, 230, 153, 0.75);
+    border-bottom: 1px solid white;
+}
+
+.fila-3-65 {
+    background-color: rgba(237, 135, 48, 0.75);
+    border-bottom: 1px solid white;
+}
+
+.fila-3 {
+    background-color: rgba(237, 135, 48, 0.35);
+    border-bottom: 1px solid white;
+}
+
+.fila-4 {
+    background-color: rgba(219, 49, 28, 0.35);
+    border-bottom: 1px solid white;
+}
+
+.bg-color-yellow {
+    background-color: #FFFEF1 !important;
+}
+.bg-color-piel {
+    background-color: #FFFCF5 !important;
+}
+
+.brand-color-optional {
+    background-color: $brand-color-optional !important;
+}
+
+h1 {
+    color:  #415214;
+}
+h2 {
+    color: #92934E;
+}
+h3,h4 {
+    color:  #ED8730;
+}
+
+.text-color-1 {
+    color: $brand-color-1;
+}
+
+.text-color-2 {
+    color: $brand-color-2;
+}
+
+.text-color-3 {
+    color: #415214;
+}
+
+.text-color-secondary {
+    color: $brand-color-light;
+}
+
+.bg-color-3 {
+    background-color: rgba(243, 232, 210, 0.4) !important;
+}
+
+.border-color-1 {
+    border-color: #A49579 !important;
+}
+
+.bg-brand-color-secondary-rgba {
+    background: rgba(234, 230, 153, 0.40) !important;
+}
+
+.card-header.bg-color-1 {
+    background-color: $brand-color-1;
+    color: #ffffff;
+}
+
+.card-header.bg-color-2 {
+    background-color: $brand-color-light;
+    color: #ffffff;
+}
+
+.card-header.bg-color-3 {
+    background-color: $brand-color-2;
+    color: #ffffff;
+}
+
+.card-header.bg-color-4 {
+    background-color: #415214;
+    color: #ffffff;
+}
+
+#collapsableRuta1,#collapsableRuta11  {
+    .btn-link:after {
+        background-color: #415214;
+        width: 25px;
+        font-size: 15px;        
+    }
+}
+
+#collapsableRuta2 {
+    .btn-link:after {
+        background-color:$brand-color-1;
+        width: 25px;
+        font-size: 15px;        
+    }
+}
