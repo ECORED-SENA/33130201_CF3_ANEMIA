@@ -14,7 +14,7 @@ html(lang="es")
 
                     include includes/page-home_topbar.pug
 
-                    +pageHeader("Tema", "assets/images/header/header_media.svg", "")   
+                    +pageHeader("Tema", "assets/images/header/header_media.png", "")   
 
         section#ResultadosAprendizaje.curso-resultados.section.bg-base-light
 
@@ -34,10 +34,13 @@ html(lang="es")
                         .card.wow.flipInX(data-wow-delay=".4s")
                             .card-body
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    +navTemaItem('1', 'Micronutrientes', 'main.html#page/tema-1/')
-                                    +navTemaItem('2', 'Anemia', 'main.html#page/tema-2/')
-                                    +navTemaItem('3', 'Estrategias de prevención', 'main.html#page/tema-3/')
-                                    +navTemaItem('4', 'Entornos', 'main.html#page/tema-4/')
+                                    +navTemaItem('1', 'Micronutrientes', '#tema-1')
+                                    +navTemaItem('2', 'Anemia', '#tema-2')
+                                    +navTemaItem('3', 'Estrategias de prevención', '#tema-3')
+                                    +navTemaItem('4', 'Entornos', '#tema-4')
+                                    +navTemaItem('glosario', 'Glosario', '#glosario')
+                                    +navTemaItem('complementario', 'Material complementario', '#anexos')
+                                    +navTemaItem('referencias', 'Referencias bibliográficas', '#referencias')
 
         section#mainContent         
 
